@@ -1,0 +1,5 @@
+type: floor
+variants: 3
+isLiquid: true
+liquidDrop: acid
+status:{damage:4}

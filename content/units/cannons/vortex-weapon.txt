@@ -1,0 +1,13 @@
+name: vortex-weapon
+reload: 20
+radius: 52
+shootSound: shotBig
+bullet:{
+	type: basicBulletType
+	lifetime: 28
+	speed: 2
+	damage: 12
+	bulletWidth: 3
+	bulletHeight: 4
+	splashDamageRadius: 24
+	splashDamage: 30}}

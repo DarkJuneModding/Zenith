@@ -1,0 +1,24 @@
+type: Separator
+name: Electrolyzer
+description: ...
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 64
+spinnerSpeed: 1.6
+results:[electrum/2]
+consumes: {
+  power: 2.4
+	liquid: electrum-liquid/0.04
+}
+requirements: [
+  titanium/45
+  thorium/24
+  silicon/36
+  graphite/24
+]
+category: crafting
+research: electroliquider
+idleSound: respawning
+idleSoundVolume: 0.2

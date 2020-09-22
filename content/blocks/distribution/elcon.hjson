@@ -1,0 +1,11 @@
+type: armoredConveyor
+size: 1
+health: 420
+speed: 0.112
+requirements: [
+	electrum/2
+	compacted-titanium/1
+	lead/3
+]
+category: distribution
+research: armored-conveyor

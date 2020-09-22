@@ -1,0 +1,12 @@
+type: Wall
+name: Large compacted titanium wall
+description: No yet now...
+size: 2
+health: 3420
+variants: 3
+requirements: [
+	compacted-titanium/24
+	compacted-thorium/8
+]
+category: defense
+research: compacted-titanium-wall-small

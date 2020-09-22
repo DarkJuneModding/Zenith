@@ -1,0 +1,26 @@
+type: unitFactory
+	size: 3
+	itemCapacity: 50
+	hasPower: true
+	consumes: {
+		power: 4.2
+		items: {
+			items: [
+			compacted-titanium/25
+			compacted-thorium/20
+			carbit/25
+			]
+		}
+	}
+	requirements: [
+		compacted-titanium/36
+		compacted-thorium/24
+		silicon/85
+		titanium/25
+	]
+	category: units
+	produceTime: 2400
+	maxSpawn: 1
+	research: fortress-factory
+	unitType: rocketPad
+	

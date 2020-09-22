@@ -1,0 +1,114 @@
+type: ItemTurret
+name: Zenith
+description: AntiAir machine gun, effective but use too much resources
+hasItems: true
+hasLiquids: true
+itemsCaparacity: 24
+liquidCapacity: 50
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+	timePeriod: 120
+    optional: false
+    booster: true
+  }
+}
+update: true
+solid: true
+health: 5200
+size: 2
+group: turrets
+priority: turret
+requirements: [
+  compacted-titanium/45
+  compacted-thorium/25
+  surge-alloy/15
+  plastanium/25
+]
+category: turret
+layer: turret
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoUseEffect: shellEjectBig
+shootSound: shoot
+range: 400
+reload: 8
+rotatespeed: 2.5
+shootCone: 5
+shootShake: 0.1
+targetAir: true
+targetGround: false
+research: spectre
+ammo: {
+  ammo-green: {
+    type: BasicBulletType
+    lifetime: 36
+    speed: 12
+    damage: 10
+    hitSize: 8
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 0
+    bulletWidth: 1
+    bulletHeight: 12
+	reloadMultiplier: 1.4
+	ammoMultiplier: 24
+  }
+  graphite: {
+    type: BasicBulletType
+    lifetime: 36
+    speed: 12
+    damage: 2
+    hitSize: 8
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 0
+    bulletWidth: 1
+    bulletHeight: 12
+	reloadMultiplier: 0.8
+	ammoMultiplier: 8
+  }
+  thorium: {
+    type: BasicBulletType
+    lifetime: 36
+    speed: 8
+    damage: 3
+    hitSize: 8
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 0
+    bulletWidth: 1
+    bulletHeight: 12
+	ammoMultiplier: 6
+  }
+  pyratite: {
+    type: BasicBulletType
+    lifetime: 36
+    speed: 12
+    damage: 2
+    hitSize: 8
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 0
+    bulletWidth: 1
+    bulletHeight: 12
+    status: burning
+    frontColor: lightishOrange
+    backColor: lightOrange
+	  reloadMultiplier: 0.9
+ 	  ammoMultiplier: 8
+  }
+}

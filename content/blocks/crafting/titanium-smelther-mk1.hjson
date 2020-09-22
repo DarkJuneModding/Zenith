@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: ...beta
+description: ...beta
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes: {
+  power: 4.8
+  items: {
+    items: [
+      titanium/10
+      electrum/1
+      thorium/2
+    ]
+  }
+}
+requirements: [
+  titanium/92
+  surge-alloy/36
+  metaglass/16
+  copper/82
+  lead/64
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.2
+outputItem: compacted-titanium/2

@@ -1,0 +1,28 @@
+type: unitFactory
+	size: 3
+	itemCapacity: 60
+	hasPower: true
+	consumes: {
+		power: 5.4
+		items: {
+			items: [
+			compacted-titanium/30
+			compacted-thorium/25
+			carbit/30
+			silicon/20
+			]
+		}
+	}
+	requirements: [
+		compacted-titanium/24
+		compacted-thorium/16
+		silicon/40
+		graphite/60
+		lead/80
+	]
+	category: units
+	research: wraith-factory
+	produceTime: 3200
+	maxSpawn: 1
+	unitType: decoy-flighter
+	

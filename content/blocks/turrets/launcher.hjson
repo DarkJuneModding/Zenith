@@ -1,0 +1,84 @@
+type: ItemTurret
+name: Rocket Launcher
+description: Strong rocket tower, have a big damage and hitZone, but effective only vs bosses.
+hasItems: true
+hasLiquids: true
+itemsCaparacity: 1
+maxAmmo: 2
+liquidCapacity: 50
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+	timePeriod: 12000
+    optional: true
+    booster: true
+  }		
+}
+update: true
+solid: true
+health: 2400
+size: 5
+group: turrets
+priority: turret
+requirements: [
+  compacted-titanium/48
+  compacted-thorium/32
+  surge-alloy/120
+  plastanium/210
+]
+canOverdrive: false
+category: turret
+layer: turret
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoUseEffect: shellEjectBig
+shootSound: shoot
+range: 1600
+reload: 1500
+rotatespeed: 0.18
+shootCone: 5
+shootShake: 4.0
+targetAir: true
+targetGround: true
+research: meltdown
+ammo: {
+  thorium: {
+    type: missileBulletType
+    lifetime: 720
+    speed: 2.4
+    damage: 1400
+    hitSize: 18
+    homingPower: 1
+    homingRange: 300
+    splashDamage: 520
+    splashDamageRadius: 80
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 2
+    bulletWidth: 18
+    bulletHeight: 21
+  }
+  ammo-green: {
+    type: missileBulletType
+    lifetime: 720
+    speed: 2.4
+    damage: 4200
+    hitSize: 18
+    homingPower: 1
+    homingRange: 300
+    splashDamage: 1820
+    splashDamageRadius: 80
+    hitEffect: hitBulletBig
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 3
+    bulletWidth: 23
+    bulletHeight: 28
+  }
+}

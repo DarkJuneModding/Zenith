@@ -1,0 +1,53 @@
+loadout: basicNucleus
+baseLaunchCost: [
+	titanium/240
+	silicon/320
+	graphite/240
+]
+defaultStartingItems: [
+	titanium/240
+	silicon/320
+	graphite/240
+	lead/850
+	copper/1250
+]
+startingItems: [
+  
+]
+//Mode: Attack
+launchPeriod: 10
+configureObjective:
+  {
+    //Mode: Attack
+    type: Launched
+    zone: hq
+  }
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 0
+  }
+//  {
+//   type: ZoneWave
+//   zone: foret-silencieuse
+//   wave: 30
+//  }
+// {
+//   type: Unlock
+//    block: mitrailleuse
+//  }
+//  {
+//    type: Unlock
+//    block: sniper
+//  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+]

@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Thorium compressor
+description: compact thorium ore in thorium bricks.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 160
+itemCapacity: 30
+consumes: {
+  power: 5.4
+  items: {
+    items: [
+      titanium/3
+      thorium/9
+    ]
+  }
+}
+requirements: [
+  compacted-titanium/32
+  plastanium/35
+  surge-alloy/25
+  metaglass/15
+]
+category: crafting
+research: titanium-smelther-mk1
+idleSound: respawning
+idleSoundVolume: 0.12
+outputItem: compacted-thorium/1

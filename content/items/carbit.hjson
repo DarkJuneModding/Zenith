@@ -1,0 +1,6 @@
+type: material
+hardness: 3
+cost: 2
+explosiveness: 0.32
+flammability: 1.2
+color: 242424

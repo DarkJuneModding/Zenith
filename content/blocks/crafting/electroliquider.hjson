@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Liquider
+description: transform Items in liquid.
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+outputLiquid: electrum-liquid/0.12
+craftTime: 60
+itemCapacity: 20
+consumes: {
+  power: 1.8
+  items: {
+    items: [
+      lead/5
+	  titanium/2
+	  thorium/1
+    ]
+  }
+}
+requirements: [
+  lead/125
+  graphite/45
+  metaglass/10
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.12

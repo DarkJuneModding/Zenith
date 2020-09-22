@@ -1,0 +1,29 @@
+ type: hoverUnit
+	name: Decoy vortex
+	description: Decoy ...
+	speed: 0.02
+	health: 3200
+	rotateSpeed: 0.001
+	baseRotateSpeed: 60
+	mass: 420
+	flying: true
+	health: 3200
+	range: 180
+	weapon: {
+		name: vortex-weapon
+		alternative: true
+		rotateSpeed: 10
+		inaccuracy: 3
+		reload: 30
+		shots: 2
+		shotDelay: 20
+		spacing: 2
+		bullet:{
+			type: basicBulletType
+			lifetime: 65
+			speed: 3
+			damage: 20
+			bulletWidth: 6
+			bulletHeight: 7
+			splashDamageRadius: 16
+			splashDamage: 6}}

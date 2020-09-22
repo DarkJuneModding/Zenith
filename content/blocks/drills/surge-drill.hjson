@@ -1,0 +1,28 @@
+type: Drill
+name: Surge drill
+description: Better than airblast drill
+size: 5
+health: 1280
+tier: 5
+drillTime: 260
+rotateSpeed: 2.6
+drawRim: true
+heatColor: 54d3ff
+hasPower: true
+liquidBoostIntensity: 1.32
+consumes: {
+	power: 6.4
+	liquid: {
+		liquid: cryofluid
+		amount: 0.18
+		optional: true
+		booster: true
+	}
+}
+requirements: [
+	compacted-titanium/18
+	compacted-thorium/12
+	surge-alloy/24
+]
+category: production
+research: blast-drill

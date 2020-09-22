@@ -1,0 +1,46 @@
+loadout: basicNucleus
+baseLaunchCost: [
+	compacted-titanium/120
+	surge-alloy/380
+	plastanium/210
+]
+defaultStartingItems: [
+	compacted-titanium/120
+	surge-alloy/380
+	plastanium/210
+	lead/850
+	copper/1250
+]
+//Mode: Attack
+launchPeriod: 10
+configureObjective:
+  {
+    //Mode: Attack
+    type: Launched
+    zone: miningComplex
+  }
+requirements: [
+  {
+    type: ZoneWave
+    zone: hq
+    wave: 0 //30
+  }
+// {
+//   type: Unlock
+//    block: mitrailleuse
+//  }
+//  {
+//    type: Unlock
+//    block: sniper
+//  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  carbit
+]

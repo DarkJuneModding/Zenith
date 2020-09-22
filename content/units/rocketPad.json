@@ -1,0 +1,24 @@
+ type: groundUnit
+	name: Rocky
+	description: Rocket Unit, very strong and dangerous!
+	speed: 0.075
+	mass: 320
+	flying: false
+	health: 620
+	range: 160
+	weapon: {
+		name: Rockets
+		reload: 90
+		alternate: true
+        shotDelay: 30
+		bullet:{
+			type: missileBulletType
+			lifetime: 90
+			speed: 2
+			damage: 60
+			bulletWidth: 7
+			bulletHeight: 8.5
+			splashDamageRadius: 24
+			splashDamage: 30
+			homingPower: 1
+			homingRange: 20}}

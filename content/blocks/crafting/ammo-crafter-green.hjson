@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Ammo Crafter
+description: Craft best ammo in game.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+itemCapacity: 20
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      titanium/5
+      thorium/3
+	  carbit/3
+    ]
+  }
+}
+requirements: [
+  compacted-titanium/42
+  compacted-thorium/28
+  silicon/85
+  graphite/65
+  lead/125
+]
+category: crafting
+research: thorium-smelther
+idleSound: respawning
+idleSoundVolume: 0.2
+outputItem: ammo-green/2

@@ -1,0 +1,109 @@
+type: doubleTurret
+name: Twins
+description: Upgraded Duo.
+hasItems: true
+hasLiquids: true
+itemsCaparacity: 30
+maxAmmo: 30
+liquidCapacity: 50
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.12
+    optional: false
+    booster: true
+  }
+}
+update: true
+solid: true
+health: 650
+size: 2
+group: turrets
+priority: turret
+requirements: [
+  copper/164
+  lead/112
+  graphite/24
+]
+category: turret
+layer: turret
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoUseEffect: shellEjectBig
+shootSound: shoot
+range: 120
+reload: 15
+rotatespeed: 3.6
+shootCone: 40
+shootShake: 0.12
+targetAir: true
+targetGround: true
+research: duo
+ammo: {
+	copper: {
+			lifetime: 70
+			speed: 3
+			damage: 10
+			bulletWidth: 6
+			bulletHeight: 8
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+		}
+    graphite: {
+			lifetime: 70
+			speed: 3
+			damage: 10
+			bulletWidth: 7
+			bulletHeight: 9
+			frontColor: 2da2cd
+			backColor: 2484a5
+			shootEffect: shootBig
+			hitEffect: shootBigSmoke
+			ammoMultiplier: 3
+			reloadMultiplier: 0.9
+			fragBullets: 2
+			fragVelocityMin: 0.3
+			fragVelocityMax: 1.2
+			fragBullet: {
+				type: basicBulletType
+				lifetime: 10
+				speed: 0.5
+				damage: 5
+				splashDamage: 3
+				splashDamageRadius: 12
+				frontColor: 2da2cd
+				backColor: 2484a5
+				shootEffect: shootBig
+				hitEffect: flakExplosionBig
+			}
+	}
+      silicon: {
+			lifetime: 70
+			speed: 3
+			damage: 13
+			bulletWidth: 6
+			bulletHeight: 8
+			frontColor: 4c4c52
+			backColor: 38383c
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			homingPower: 1
+			homingRange: 20
+			ammoMultiplier: 3
+		}
+       pyratite: {
+			lifetime: 70
+			speed: 3
+			damage: 9
+			shotCone: 3
+			bulletWidth: 5
+			bulletHeight: 17
+			incendAmount: 2
+			incendSpread: 6
+			incendChance: 2
+			frontColor: lightishOrange
+			backColor: lightOrange
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+		}
+}

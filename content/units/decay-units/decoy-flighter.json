@@ -1,0 +1,26 @@
+ type: flyingUnit
+	name: Decoy flighter
+	description: Decoy version of ghost flighter, can fly into the walls. Very strong but too slow.
+	speed: 0.135
+	rotateSpeed: 0.001
+	baseRotateSpeed: 800
+	mass: 40
+	flying: true
+	health: 1240
+	range: 180
+	weapon: {
+		name: Rockets
+		reload: 24
+		alternate: true
+		shotDelay: 24
+		bullet:{
+			type: missileBulletType
+			lifetime: 70
+			speed: 3
+			damage: 45
+			bulletWidth: 6
+			bulletHeight: 7
+			splashDamageRadius: 16
+			splashDamage: 8
+			homingPower: 1
+			homingRange: 12}}
